@@ -33,6 +33,9 @@ class PostfixEvaluation {
                         oppStack.push(left / right);
                     }
                 }
+                if (tokens[i].equals("%")) {
+                	oppStack.push(left % right);
+                }
                 if (tokens[i].equals("^")) {
                     oppStack.push(Math.pow(left, right));
                 }
