@@ -1,18 +1,6 @@
-Using stacks, write an infix expression parser. Here are a few examples of expressions your
-program should parse and evaluate.
-
-Expression                  Result
-1+2*3                       7
-2+2^2*3                     14
-1==2                        0 // Booleans will be converted to 0 (false) or 1 (true).
-1+3 > 2                     1
-(4>=4) && 0                 0
-(1+2)*3                     9
-2%2+2^2-5*(3^2)              -41
-
+Using stacks, write an infix expression parser.
 
 Technical Requirements (Programming)
-
 1. (Weight: 40%) Your parser should parse an infix expression that supports the following
 arithmetic and logical operators with the specified precedencies.
 
