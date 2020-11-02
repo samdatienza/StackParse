@@ -16,15 +16,6 @@ Technical Requirements (Programming)
 1. (Weight: 40%) Your parser should parse an infix expression that supports the following
 arithmetic and logical operators with the specified precedencies.
 
-Operator                           Precedence          Example
-^ // Power                         7                   2^3 // 8
-*, /, % // Arithmetic              6                   6 * 2 // 12
-+, - // Arithmetic                 5                   6 - 2 // 4
->, >=, <, <= // Comparison         4                   6 > 5 // 1 (true)
-==, != // Equality Comparison      3                   6 != 5 // 1 (true)
-&& // Logical And                  2                   6 > 5 && 4 > 5 // 0 (false)
-|| // Logical Or                   1                   1 || 0 // 1 (true)
-
 2. (Weight: 30%) Parse an expression given in a string format. Your program should be flexible
 with the given expressions. For instance, "1+2" is the same as "1 + 2". The user should not
 worry about writing the spaces between operands and operators.
@@ -47,11 +38,6 @@ of 1.5).
 according to the logic of true = 1 and false = 0. Also, an integer can be converted to a
 boolean according to the logic that a number equal to zero is false; otherwise, it is true.
 Examples are given below.
-
-Expression               Evaluation Result
-(3 + 4) || 1             1
-(2 > 3) - 2             -2
-5 ^ 2 % 7 && (4 - 4)     0
 
 4. You can be inspired by the postfix evaluator as well as the infix to postfix converter that we
 have studied in class. However, make sure you come up with an efficient algorithm.
